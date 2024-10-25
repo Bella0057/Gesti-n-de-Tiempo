@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #f0f0f0;
 
@@ -88,3 +88,15 @@ button[type="button"]:active {
 
 }
 
+table{
+    width: 50%;
+    height: 50wh;
+    outline: 1px solid black;
+
+}
+
+
+tr, 
+td {
+    outline: 1px solid black;
+}
